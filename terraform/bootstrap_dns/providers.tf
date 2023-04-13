@@ -8,7 +8,7 @@ terraform {
     }
     dnsimple = {
       source  = "dnsimple/dnsimple"
-      version = "0.17.0"
+      version = "1.0.0"
     }
   }
 }
