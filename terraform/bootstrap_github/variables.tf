@@ -1,13 +1,3 @@
-variable "github_owner" {
-  type        = string
-  description = "Github user or org. Used to configure github provider."
-}
-
-variable "github_token" {
-  type        = string
-  description = "Github personal access token. Used to configure github provider."
-}
-
 variable "region" {
   type        = string
   description = "AWS region. Used to configure AWS provider"
