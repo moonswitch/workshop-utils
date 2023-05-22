@@ -1,8 +1,3 @@
-variable "region" {
-  type        = string
-  description = "AWS region. Used to configure AWS provider"
-}
-
 variable "repo_name" {
   type        = string
   description = "Name of the repository to create."
